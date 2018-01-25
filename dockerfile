@@ -1,4 +1,4 @@
-FROM postgres:alpine
+FROM alpine:latest
 
 RUN apk update -U \
 	&& apk add --no-cache pgbouncer \
